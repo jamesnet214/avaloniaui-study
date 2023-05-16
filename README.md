@@ -1,14 +1,8 @@
 # AvaloniaUI Study
 
-### Sessions
+## Sessions
 - [.NET Conference Spring 2023.05](#)
 
-
-
-
-
-
-# Sessions
 
 ## .NET Conference Spring 2023.05
 
