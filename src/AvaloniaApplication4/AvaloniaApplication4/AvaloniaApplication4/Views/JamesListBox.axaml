@@ -1,0 +1,19 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="using:AvaloniaApplication4.Views">
+  <Design.PreviewWith>
+    <controls:JamesListBox />
+  </Design.PreviewWith>
+
+  <Style Selector="controls|JamesListBox">
+    <!-- Set Defaults -->
+    <Setter Property="Template">
+      <ControlTemplate>
+        <Grid RowDefinitions="Auto, *">
+          <TextBlock Text="ListBox"/>
+          <ItemsPresenter Grid.Row="1" MinHeight="50"/>
+        </Grid>
+      </ControlTemplate>
+    </Setter>
+  </Style>
+</Styles>

@@ -1,0 +1,20 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="using:AvaloniaApplication4.Views">
+  <Design.PreviewWith>
+    <StackPanel>
+        <controls:JamesButton />
+        <controls:JamesButton />
+      <controls:JamesButton />
+    </StackPanel>
+  </Design.PreviewWith>
+
+  <Style Selector="controls|JamesButton">
+    <!-- Set Defaults -->
+    <Setter Property="Template">
+      <ControlTemplate>
+        <TextBlock Text="Templated Control" />
+      </ControlTemplate>
+    </Setter>
+  </Style>
+</Styles>
